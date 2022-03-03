@@ -1,0 +1,81 @@
+/* BLUE FOOTER */
+
+#cu{
+    background-color: hsl(0, 94%, 66%);
+    border: 0px solid;
+    color: whitesmoke;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    /* box-shadow: 0px 5px 0px 0px rgb(178, 179, 241); */
+ }
+ .movecu{
+     padding-top: 20px;
+ }
+
+ #inp{
+    background-color: #ffff;
+    border: 2px solid;
+    /* outline: 1px rgb(219, 180, 180); */
+    outline-color: mediumpurple;
+    color: whitesmoke;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    /* box-shadow: 0px 5px 0px 0px rgb(178, 179, 241); */
+ }
+ .foot1{
+     background-color: hsl(231, 69%, 60%);
+     height: 300px;
+ }
+ .movefoot1{
+     padding-top: 60px;
+ }
+ .foottext1{
+     padding-top: 50px;
+     color: white;
+ }
+
+ /* DARK BLUE FOOTER */
+#book{
+     color: white;
+     font-weight: bold;
+     position: absolute;
+     left: 120px;
+     /* bottom: 25px; */
+ }
+ .foot2{
+     background-color: hsl(229, 31%, 21%);
+     height: 300px;
+ }
+ #footlogo{
+     color: white;
+     z-index: 100;
+ }
+ #fpc{
+     color: white;
+     text-decoration: none;
+     padding-top: 30px;
+ }
+ #fpcgap{
+     padding-top: 20px;
+ }
+
+ .footicon{
+     display: flex;
+     justify-content: space-around;
+     padding-top: 20px;
+ }
+ #fb{
+     padding-left: 90px;
+ }
+ #tw{
+    padding-right: 100px;
+}
+.movefootcont{
+    padding-top: 30px;
+}
+.foottext2{
+    display: block;
+    padding-top: 20px;   
+}

@@ -1,0 +1,77 @@
+/* .logoham{
+    display: flex;
+    justify-content: space-between;
+} */
+.movenavbar{
+    padding-top: 20px;
+}
+.rechero{
+    display: flex;
+}
+
+/* SECOND SEC STARTS */
+.bgrc{
+    background-color: hsl(231, 69%, 60%);
+    padding: 100px;
+    padding-left: 150px;
+    width: 90px;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+}
+.movebgrc{
+    position: relative;
+    right: 240px;
+    top: 20px;
+}
+#hero{
+    width: 90%;
+    height: 70%;
+    z-index: 100;
+}
+.rechero{
+    display: flex;
+    padding-top: 100px;
+}
+
+/* THIRD SEC STARTS */
+
+.simplepara{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.para{
+    width: 95%;
+    color: hsl(229, 8%, 60%);
+}
+
+/* BUTTON SEC HEAD */
+
+#gchrome{
+background-color: hsl(231, 69%, 60%);
+border: 0px solid;
+color: whitesmoke;
+height: 40px;
+width: 140px;
+border-radius: 5px;
+box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
+}
+.movegchrome{
+    padding-left: 20px;
+}
+#gfire{
+    background-color: #f7f7f7;
+    border: 0px solid #f7f7f7;
+    color: rgb(48, 46, 46);
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px 0px rgb(221, 211, 211);
+}
+.movegfire{
+    padding-right: 15px;
+}
+.chrofire{
+    display: flex;
+    justify-content: space-between;
+}
