@@ -9,19 +9,19 @@ import OperaIcon from './img/logo-opera.svg'
 
 const Main = () => {
   return (
-    <div>
+    <div className='body'>
 
                                                                                   <section className='feaacco'>
                                                                                     <div className='feapara'>
                                                                                       <h2 className='fea'>Features</h2>
-                                                                                      <p className='para1'>Our aim is to make it quick and easy for you to access your favourute websites. Your bookmarks sync between your devices so you can access them on the go.
+                                                                                      <p className='para1'>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.
                                                                                       </p>
                                                                                     </div>
 
                                                                                     {/* ACCORDION DROPDOWN PART */}
                                                                                     <Accordion defaultActiveKey="0">
                                                                                       <Accordion.Item eventKey="0">
-                                                                                        <Accordion.Header>Simple Bookmarking</Accordion.Header>
+                                                                                        <Accordion.Header id='sse'>Simple Bookmarking</Accordion.Header>
                                                                                         <Accordion.Body>
                                                                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                                                                           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -29,7 +29,7 @@ const Main = () => {
                                                                                         </Accordion.Body>
                                                                                       </Accordion.Item>
                                                                                       <Accordion.Item eventKey="1">
-                                                                                        <Accordion.Header>Speedy Searching</Accordion.Header>
+                                                                                        <Accordion.Header id='sse'>Speedy Searching</Accordion.Header>
                                                                                         <Accordion.Body>
                                                                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                                                                           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -37,7 +37,7 @@ const Main = () => {
                                                                                         </Accordion.Body>
                                                                                       </Accordion.Item>
                                                                                       <Accordion.Item eventKey="2">
-                                                                                        <Accordion.Header>Easy Sharing</Accordion.Header>
+                                                                                        <Accordion.Header id='sse'>Easy Sharing</Accordion.Header>
                                                                                         <Accordion.Body>
                                                                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                                                                           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -49,25 +49,32 @@ const Main = () => {
                                                                                   </section>
 
 
-
-                                                                                  <section>
-                                                                                    <div className='bgrctab'>
-                                                                                      <div className='bgrc2'></div>
-                                                                                      <div className='movetab'>
-                                                                                        <img id='tab' src={Tab} alt="" />
-                                                                                      </div>
-                                                                                    </div>
+                                                                              <div className='section2'>
+                                                                                  <section className='allbgrctab'>
+                                                                                                  <div className='bgrctab'>
+                                                                                                    <div className='bgrc2'></div>
+                                                                                                    <div className='movetab'>
+                                                                                                      <img id='tab' src={Tab} alt="" />
+                                                                                                    </div>
+                                                                                                  </div>
                                                                                   </section>
 
 
-                                                                                  <section>
+                                                                                  <section className='bookmparainfo'>
                                                                                     <div className='bookmpara'>
                                                                                       <h2 className='bookm'>Bookmark in one click</h2>
                                                                                       <p className='para2'>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites. </p>
+                                                                                      <div className='movemoreinfo1'>
+                                                                                          <button id='moreinfo1'>More Info</button>
+                                                                                        </div>
                                                                                     </div>
 
                                                                                   </section>
-                                                                                  
+                                                                                </div>
+      
+
+
+
                                                                                   <section>
                                                                                     <div className='downpara'>
                                                                                       <h2 className='downl'>Download the extension</h2>
@@ -79,7 +86,7 @@ const Main = () => {
                                                                                   {/* EXTENSION ICON LAYER PART */}
 
                                                                                               {/* CHROME */}
-                                                                                              
+                                                                                   <div className='section3'>           
                                                                                             <div className='movechromesec'>
                                                                                               <div className='chromesec'>
                                                                                                 
@@ -105,7 +112,7 @@ const Main = () => {
       
 
                                                                                                   {/* FIREFOX */}
-      
+                                                                                          <div className='movefirefox'>
                                                                                             <div className='movechromesec'>
                                                                                               <div className='chromesec'>
                                                                                                 
@@ -127,10 +134,11 @@ const Main = () => {
         
                                                                                               </div>
                                                                                             </div>
-                                                                                            
+                                                                                          </div>  
       
                                                                                             {/* OPERA */}
                                                                                           
+                                                                                          <div className='moveopera'>
                                                                                             <div className='movechromesec'>
                                                                                               <div className='chromesec'>
                                                                                                 
@@ -152,15 +160,18 @@ const Main = () => {
         
                                                                                               </div>
                                                                                             </div>
-                                                                                            
+                                                                                          </div>  
+        
+
+                                                                                    </div>         
       
                                                                                               {/* FAQ SECTION */}
                                                                                               
-                                                                                  <section>
-                                                                                    <div className='faqpara'>
-                                                                                      <h2 className='faq'>Frequently Asked Questions</h2>
-                                                                                      <p className='para5'>Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us. </p>
-                                                                                    </div>
+                                                                                  <section className='allfaq'>
+                                                                                              <div className='faqpara'>
+                                                                                                <h2 className='faq'>Frequently Asked Questions</h2>
+                                                                                                <p className='para5'>Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us. </p>
+                                                                                              </div>
 
                                                                                   </section>
                                                                                   

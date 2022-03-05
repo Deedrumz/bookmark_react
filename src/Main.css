@@ -1,126 +1,399 @@
-.feapara{
-    padding-top: 30px;
-    text-align: center;
-    width: 95%;
-}
-.para1{
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+@media (min-width: 320px) {
+   *{
+        margin-left: 1px;
+        margin-right: 1px;
+   }
+   
+    .feapara{
+        padding-top: 30px;
+        text-align: center;
+        width: 95%;
+        font-family: 'Rubik', sans-serif;
+    }
+    .para1{
+        color: hsl(229, 8%, 60%);
+    }
+    #sb{
+        text-align: center;
+    }
+    .feaacco{
+        padding-top: 60px;
+    }
+    #sse{
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+    }
+    /* BACKGROUND AND TAB2 */
+    .bgrc2{
+        background-color: hsl(231, 69%, 60%);
+        padding-left: 200px;
+        padding-bottom: 150px;
+        border-top-right-radius: 500px;
+        border-bottom-right-radius: 500px;
+    }
+    #tab{
+        width: 250px;
+        /* width: 99%;
+        height: 95%; */
+        z-index: 100;
+    }
+    .movetab{
+        position: relative;
+        bottom: 25px;
+        right: 170px;
+    }
+    .bgrctab{
+        display: flex;
+        padding-top: 70px;
+    }
     
-    color: hsl(229, 8%, 60%);
-}
-#sb{
-    text-align: center;
-}
-.feaacco{
-    padding-top: 60px;
+    .bookmpara{
+        padding-top: 30px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+    }
+    #moreinfo1{
+        background-color: hsl(231, 69%, 60%);
+        border: 0px solid;
+        color: whitesmoke;
+        height: 40px;
+        width: 100px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
+    }
+    .movemoreinfo1{
+        visibility: hidden;
+    }
+    .para2{
+        width: 95%;
+        color: hsl(229, 8%, 60%);
+    }
+    
+    .downpara{
+        padding-top: 100px;
+        text-align: center;
+        width: 95%;
+        font-family: 'Rubik', sans-serif;
+    }
+    .para3{
+        
+        color: hsl(229, 8%, 60%);
+    }
+    
+     /* EXTENSION ICON LAYER PART */
+    /* CHROME */
+    .movechromesec{
+        padding-top: 40px ;
+        font-family: 'Rubik', sans-serif;
+    }
+     #para4{
+         color: hsl(229, 8%, 60%);
+     }
+     .chromesec{
+         background-color: #f7f7f7;
+         border: 0px solid;
+         height: 330px;
+         border-radius: 20px;
+        box-shadow: 0px 10px 10px 3px rgb(216, 206, 206);
+         width: 90%;
+        margin-left: 1em;
+        margin-right: 1em;
+     }
+     #addchrome{
+        background-color: hsl(231, 69%, 60%);
+        border: 0px solid;
+        color: whitesmoke;
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
+     }
+     .moveaddchrome{
+         padding-top: 20px;
+     }
+     .moveci{
+         padding-top: 30px;
+     }
+     .chromepara{
+         text-align: center;
+         padding-top: 20px;
+     }
+    
+     /* FIREFOX */
+    
+    
+     /* OPERA */
+    
+     /* FAQ */
+     .faqpara{
+        padding-top: 100px;
+        text-align: center;
+        width: 95%;
+        font-family: 'Rubik', sans-serif;
+    }
+    .para5{
+        color: hsl(229, 8%, 60%);
+    }
+    .faqaccordion{
+        padding-top: 40px;
+        font-family: 'Rubik', sans-serif;
+    }
+    #moreinfo{
+        background-color: hsl(231, 69%, 60%);
+        border: 0px solid;
+        color: whitesmoke;
+        height: 40px;
+        width: 100px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
+     }
+     .movemoreinfo{
+         padding-top: 20px;
+         font-family: 'Rubik', sans-serif;
+     }
 }
 
-/* BACKGROUND AND TAB2 */
-.bgrc2{
-    background-color: hsl(231, 69%, 60%);
-    padding-left: 200px;
-    padding-bottom: 150px;
-    border-top-right-radius: 500px;
-    border-bottom-right-radius: 500px;
+/* 400 MEDIA STARTS HERE */
+@media (min-width: 400px) {
+    #tab{
+        width: 300px;
+    }
+    .bgrc2{
+        padding-left: 300px;
+    }
+    .movetab{
+        right: 250px;
+    }
+
+
+
+
 }
+
+/* 600 media starts here */
+@media (min-width: 600px) {
+    
+
 #tab{
-    width: 250px;
-    /* width: 99%;
-    height: 95%; */
-    z-index: 100;
+        width: 450px;
+    }
+    .bgrc2{
+        padding-left: 500px;
+    }
+    .movetab{
+        right: 400px;
+    }
+    .feapara{
+        width: 90%;
+        padding-left: 70px;
+    }
+    .bookmpara{
+        width: 90%;
+        padding-left: 70px;
+    }
+.downpara{
+    width: 90%;
+    padding-left: 70px;
+}
+.faqpara{
+    width: 90%;
+    padding-left: 70px;
+}
+.chromesec{
+    width: 70%;
+}
+.movechromesec{
+    padding-left: 120px;
+}
+
+
+
+}
+
+
+@media (min-width: 800px) {
+    
+    #tab{
+        width: 550px;
+    }
+    .bgrc2{
+        padding-left: 600px;
+    }
+    .movetab{
+        right: 500px;
+    }
+
+    
+}
+
+/* MEDIA QUERY FOR 1025 */
+@media (min-width: 1025px) {
+    .mainsection{
+        overflow: hidden;
+    }
+    .feapara{
+        width: 50%;
+        position: relative;
+        left: 250px;
+    }
+
+    #tab{
+        width: 550px;
+    }
+    .bgrc2{
+        padding-left: 600px;
+    }
+    .movetab{
+        right: 500px;
+    }
+    .allbgrctab{
+        position: relative;
+        left: 20px;
+    }
+.movemoreinfo1{
+    visibility: visible;
+    position: relative;
+    right: 125px;
+}
+.movemoreinfo{
+    /* visibility: hidden; */
+}
+
+/* SECOND BACKTAB AND BOOKMARK */
+.section2{
+    display: flex;
+    overflow: hidden;
+}
+
+#tab{
+    width: 400px;
+}
+.bgrc2{
+    padding-left: 400px;
 }
 .movetab{
-    position: relative;
-    bottom: 25px;
-    right: 150px;
-}
-.bgrctab{
-    display: flex;
-    padding-top: 70px;
+    right: 300px;
 }
 
-.bookmpara{
-    padding-top: 30px;
-    text-align: center;
+.bookm{
+    width: 400px;
+    position: relative;
+    right: 45px;
 }
 .para2{
-    width: 95%;
-    color: hsl(229, 8%, 60%);
+    text-align: left;
+}
+.bookmparainfo{
+    position: relative;
+    right: 250px;
+    padding-top: 50px;
 }
 
 .downpara{
-    padding-top: 100px;
-    text-align: center;
-    width: 95%;
-}
-.para3{
-    
-    color: hsl(229, 8%, 60%);
+    width: 50%;
+    position: relative;
+    left: 250px;
 }
 
- /* EXTENSION ICON LAYER PART */
-/* CHROME */
+/* BROWSER ICON PART */
+.chromesec{
+    width: 90%;
+    height: 350px;
+}
+.section3{
+    display: flex;
+}
 .movechromesec{
-    padding-top: 40px ;
+    position: relative;
+    right: 100px;
 }
- #para4{
-     color: hsl(229, 8%, 60%);
- }
- .chromesec{
-     background-color: #f7f7f7;
-     border: 0px solid;
-     height: 330px;
-     border-radius: 20px;
-    box-shadow: 0px 10px 10px 3px rgb(216, 206, 206);
-     width: 90%;
-    margin-left: 1em;
-    margin-right: 1em;
- }
- #addchrome{
-    background-color: hsl(231, 69%, 60%);
-    border: 0px solid;
-    color: whitesmoke;
-    height: 40px;
-    width: 200px;
-    border-radius: 5px;
-    box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
- }
- .moveaddchrome{
-     padding-top: 20px;
- }
- .moveci{
-     padding-top: 30px;
- }
- .chromepara{
-     text-align: center;
-     padding-top: 20px;
- }
+.movefirefox{
+    position: relative;
+    right: 120px;
+    top: 50px;
+}
+.moveopera{
+    position: relative;
+    right: 240px;
+    top: 100px;
+}
 
- /* FIREFOX */
-
-
- /* OPERA */
-
- /* FAQ */
- .faqpara{
+.allfaq{
     padding-top: 100px;
-    text-align: center;
-    width: 95%;
-}
-.para5{
-    color: hsl(229, 8%, 60%);
+    width: 60%;
+    position: relative;
+    left: 220px;
 }
 .faqaccordion{
-    padding-top: 40px;
+    width: 50%;
+    position: relative;
+    left: 270px;
 }
-#moreinfo{
-    background-color: hsl(231, 69%, 60%);
-    border: 0px solid;
-    color: whitesmoke;
-    height: 40px;
-    width: 100px;
-    border-radius: 5px;
-    box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
- }
- .movemoreinfo{
-     padding-top: 20px;
- }
+
+
+
+
+}
+
+
+/* MOBILE QUERY FOR 1285 STARTS */
+
+@media (min-width: 1285px) {
+    
+.para1{
+    text-align: center;
+    width: 85%;
+    padding-left: 100px;
+}
+
+.bookmparainfo{
+    padding-left: 20px;
+}
+.para2{
+    width: 400px;
+}
+.bookm{
+    padding-left: 15px;
+}
+#tab{
+    width: 500px;
+}
+.bgrc2{
+    padding-left: 500px;
+}
+.movetab{
+    right: 400px;
+}
+.para3{
+    text-align: center;
+    width: 85%;
+    padding-left: 100px;
+}
+.section3{
+    padding-left: 150px;
+}
+.para5{
+    text-align: center;
+    width: 85%;
+    padding-left: 100px;
+}
+.faqaccordion{
+    width: 45%;
+    padding-left: 120px;
+}
+
+.movemoreinfo{
+    padding-right: 150px;
+}
+
+
+
+
+}
+
+
+
+

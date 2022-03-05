@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+@media (min-width: 320px) {
 /* .logoham{
     display: flex;
     justify-content: space-between;
 } */
+.movenavbardesk{
+    visibility: hidden;
+}
 .movenavbar{
     padding-top: 20px;
+    font-family: 'Rubik', sans-serif;
 }
 .rechero{
     display: flex;
@@ -38,11 +46,13 @@
 .simplepara{
     padding-top: 50px;
     text-align: center;
+    width: 95%;
+    font-family: 'Rubik', sans-serif;
 }
 
 .para{
-    width: 95%;
     color: hsl(229, 8%, 60%);
+    font-family: 'Rubik', sans-serif;
 }
 
 /* BUTTON SEC HEAD */
@@ -57,7 +67,7 @@ border-radius: 5px;
 box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
 }
 .movegchrome{
-    padding-left: 20px;
+    padding-left: 10px;
 }
 #gfire{
     background-color: #f7f7f7;
@@ -69,9 +79,208 @@ box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
     box-shadow: 0px 5px 0px 0px rgb(221, 211, 211);
 }
 .movegfire{
-    padding-right: 15px;
+    padding-right: 10px;
 }
 .chrofire{
     display: flex;
     justify-content: space-between;
+}
+}
+
+
+/* 400 MEDIA STARTS HERE */
+@media (min-width: 400px) {
+    
+.movegchrome{
+    padding-left: 30px;
+}
+.movegfire{
+    padding-right: 30px;
+}
+.bgrc{
+    padding: 100px;
+    padding-left: 200px;
+}
+.movebgrc{
+    right: 300px;
+    top: 20px;
+}
+}
+
+
+/* 600 media starts here */
+@media (min-width: 600px) {
+    
+    .bgrc{
+        padding: 100px;
+        padding-left: 300px;
+        padding-bottom: 220px;
+    }
+    .movebgrc{
+        right: 400px;
+        top: 20px;
+    }
+
+    .simplepara{
+        width: 90%;
+        padding-left: 70px;
+    }
+    .movegchrome{
+        padding-left: 100px;
+    }
+    .movegfire{
+        padding-right: 100px;
+    }
+
+
+}
+
+/* MEDIA QUERY FOR 800 */
+@media (min-width: 800px) {
+    .bgrc{
+        padding: 100px;
+        padding-left: 500px;
+        padding-bottom: 280px;
+    }
+    .movebgrc{
+        right: 550px;
+        top: 60px;
+    }
+
+    .movegchrome{
+        padding-left: 200px;
+    }
+    .movegfire{
+        padding-right: 200px;
+    }
+
+
+}
+
+/* MEDIA QUERY FOR 1025 */
+@media (min-width: 1025px) {
+.body{
+    overflow: hidden;
+}
+/* #logo{
+    padding-left: 50px;
+} */
+.movenavbar{
+    visibility: hidden;
+    z-index: 100;
+}
+.movenavbardesk{
+    position: relative;
+    visibility: visible;
+    bottom: 60px;
+}
+#login{
+    background-color: hsl(0, 94%, 66%);
+    border: 0px solid;
+    color: whitesmoke;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+.me-auto{
+    margin-left: 400px;
+}
+
+.section1{
+    display: flex;
+    width: fit-content;
+}
+
+
+.allsimple{
+    -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+        position: relative;
+        right: 170px;
+}
+.allrecbgrc{
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+    position: relative;
+    right: 200px;
+    position: relative;
+    bottom: 100px;
+
+}
+.simplepara{
+    width: fit-content;
+}
+.para{
+text-align: left;
+width: 90%;
+padding-left: 130px;
+}
+.simple{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.chrofire{
+    padding-right: 50px;
+}
+.movegfire{
+    margin-left: 10px;
+}
+
+.bgrc{
+    padding: 100px;
+    padding-left: 300px;
+    padding-bottom: 150px;
+}
+.movebgrc{
+    right: 350px;
+    top: 40px;
+}
+#hero{
+    width: 400px;
+    height: 300px;
+    z-index: 100;
+}
+
+}
+
+
+/* MEDIA QUERY FOR 1285 STARTS */
+
+@media (min-width: 1285px) {
+    
+    .bgrc{
+        padding: 100px;
+        padding-left: 400px;
+        padding-bottom: 250px;
+    }
+    .movebgrc{
+        right: 400px;
+        top: 40px;
+    }
+    #hero{
+        width: 500px;
+        height: 400px;
+        z-index: 100;
+    }
+.allrecbgrc{
+    padding-left: 200px;
+}
+.allsimple{
+    padding-left: 80px;
+}
+.simple{
+    width: 80%;
+    text-align: left;
+    padding-left: 130px;
+}
+
+
 }

@@ -9,17 +9,14 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <div>
+        <div className='body'>
 
-
-                                                            {/* <nav> */}
-                                                                                {/* <div className='logoham'>
-                                                                                    <img src={logo} alt="" />
-                                                                                    <div> */}
+                                                                        {/* NAVBAR FOR MOBILE VIEW */}
+                                                        
                                                                                 <div className='movenavbar'>
                                                                                     <Navbar bg="light" expand="">
                                                                                         <Container>
-                                                                                        <img src={logo} alt="" />
+                                                                                        <img id='logo' src={logo} alt="" />
                                                                                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                                                                             <Navbar.Collapse id="basic-navbar-nav">
                                                                                             <Nav className="me-auto">
@@ -32,14 +29,31 @@ const Header = () => {
                                                                                     </Navbar>
                                                                                 </div>
             
-                                                                                    {/* </div>
+
+            {/* NAVBAR FOR DESKTOP VIEW FROM 1025 */}
+                                                                                <div className='movenavbardesk'>
+                                                                                    <Navbar bg="light" expand="lg">
+                                                                                        <Container>
+                                                                                        <img src={logo} alt="" />
+                                                                                            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                                                                                            <Navbar.Collapse id="basic-navbar-nav">
+                                                                                            <Nav className="me-auto">
+                                                                                                <Nav.Link href="#home">FEATURES</Nav.Link>
+                                                                                                <Nav.Link href="#link">PRICING</Nav.Link>
+                                                                                                <Nav.Link href="#link">CONTACT</Nav.Link>
+                                                                                            </Nav>
+                                                                                            </Navbar.Collapse>
+                                                                                            <Nav id='movelogin'>
+                                                                                            <button id='login'>LOGIN</button>
+                                                                                            </Nav>
+                                                                                        </Container>
+                                                                                    </Navbar>
                                                                                 </div>
-                                                             </nav> */}
 
 
 
-
-                                                            <section>
+                                                        <div className='section1'>
+                                                            <section className='allrecbgrc'>
                                                                                 <div className='rechero'>
                                                                                     <img id='hero' src={Hero} alt="" />
                                                                                     <div className='movebgrc'>
@@ -48,7 +62,7 @@ const Header = () => {
                                                                                 </div>
                                                             </section>
 
-                                                            <section>
+                                                            <section className='allsimple'>
                                                                                 <div className='simplepara'>
                                                                                         <h2 className='simple'>A Simple Bookmark Manager</h2>
                                                                                         <p className='para'>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free
@@ -68,6 +82,7 @@ const Header = () => {
                                                                                         </div>         
                                                                                 </div>
                                                                 </section>
+                                                        </div>
 
 
 

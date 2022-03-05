@@ -1,5 +1,9 @@
-/* BLUE FOOTER */
+@media (min-width: 320px) {
+    /* BLUE FOOTER */
 
+.foot3{
+    visibility: hidden;
+}
 #cu{
     background-color: hsl(0, 94%, 66%);
     border: 0px solid;
@@ -30,6 +34,7 @@
  }
  .movefoot1{
      padding-top: 60px;
+     font-family: 'Rubik', sans-serif;
  }
  .foottext1{
      padding-top: 50px;
@@ -74,8 +79,127 @@
 }
 .movefootcont{
     padding-top: 30px;
+    font-family: 'Rubik', sans-serif;
 }
 .foottext2{
     display: block;
     padding-top: 20px;   
+}
+}
+
+
+/* 600 MEDIA STARTS HERE */
+@media (min-width: 600px) {
+
+    #cu{
+        width: 400px;
+    }
+    #inp{
+        width: 400px;
+    }
+    #fb{
+        padding-left: 150px;
+    }
+    #tw{
+       padding-right: 160px;
+   }
+}
+
+
+@media (min-width: 1025px) {
+    .foottext1 h2{
+        width: 70%;
+        padding-left: 280px;
+    }
+
+    #cu{
+        width: 150px;
+        position: relative;
+        bottom: 20px;
+        left: 10px;
+    }
+    #inp{
+        width: 280px;
+    }
+.inpcu{
+    display: flex;
+    position: relative;
+    left: 250px;
+    padding-top: 20px;
+}
+.movefoot1{
+    overflow: hidden;
+}
+
+.foot3{
+    /* visibility: visible; */
+}
+.foot2{
+    overflow: hidden;
+    height: 100px;
+}
+
+.foottext2{
+    display: flex;
+    position: relative;
+    left: 400px;
+    bottom: 60px;
+}
+#footlogo{
+    position: relative;
+    right: 300px;
+}
+
+.footicon{
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+}
+#fb{
+    position: relative;
+    left: 300px;
+}
+#tw{
+   position: relative;
+}
+#fpc{
+    padding-left: 20px;
+}
+
+
+
+}
+
+
+
+/* MEDIA QUERY FOR 1285 STARTS */
+@media (min-width: 1285px) {
+    
+.foottext1 h2{
+    width: 60%;
+    padding-left: 450px;
+}
+.foottext1 p{
+    padding-right: 150px;
+    letter-spacing: 5px;
+}
+.inpcu{
+    padding-left: 200px;
+}
+
+#fb{
+    position: relative;
+    left: 420px;
+}
+#tw{
+   position: relative;
+   right: 100px;
+}
+#footlogo{
+    padding-right: 350px;
+}
+
+
+
+
 }
