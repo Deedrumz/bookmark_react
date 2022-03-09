@@ -16,6 +16,18 @@
 .rechero{
     display: flex;
 }
+#login1{
+    background-color: hsl(0, 94%, 66%);
+    border: 0px solid;
+    color: whitesmoke;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+#movelogin1{
+    position: relative;
+    left: 80px;
+}
 
 /* SECOND SEC STARTS */
 .bgrc{
@@ -90,6 +102,10 @@ box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
 
 /* 400 MEDIA STARTS HERE */
 @media (min-width: 400px) {
+    #movelogin1{
+        position: relative;
+        left: 120px;
+    }
     
 .movegchrome{
     padding-left: 30px;
@@ -110,6 +126,10 @@ box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
 
 /* 600 media starts here */
 @media (min-width: 600px) {
+    #movelogin1{
+        position: relative;
+        left: 200px;
+    }
     
     .bgrc{
         padding: 100px;
@@ -137,6 +157,11 @@ box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
 
 /* MEDIA QUERY FOR 800 */
 @media (min-width: 800px) {
+
+    #movelogin1{
+        position: relative;
+        left: 300px;
+    }
     .bgrc{
         padding: 100px;
         padding-left: 500px;
@@ -162,9 +187,7 @@ box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
 .body{
     overflow: hidden;
 }
-/* #logo{
-    padding-left: 50px;
-} */
+
 .movenavbar{
     visibility: hidden;
     z-index: 100;
@@ -182,9 +205,19 @@ box-shadow: 0px 5px 0px 0px rgb(178, 179, 241);
     width: 100px;
     border-radius: 5px;
 }
+#login:hover{
+    background-color: #f7f7f7;
+    color: hsl(0, 94%, 66%);
+    outline: hsl(0, 94%, 66%) 2px solid;
+}
 .me-auto{
     margin-left: 400px;
 }
+.me-auto:hover{
+    cursor: pointer;
+    color: hsl(0, 94%, 66%);
+}
+
 
 .section1{
     display: flex;
@@ -233,6 +266,16 @@ padding-left: 130px;
 .movegfire{
     margin-left: 10px;
 }
+#gchrome:hover{
+    background-color: #f7f7f7;
+    color: hsl(229, 31%, 21%);
+    outline: hsl(229, 8%, 60%) 2px solid;
+}
+#gfire:hover{
+    background-color: #f7f7f7;
+    color: hsl(229, 31%, 21%);
+    outline: hsl(229, 8%, 60%) 2px solid;
+}
 
 .bgrc{
     padding: 100px;
@@ -256,6 +299,13 @@ padding-left: 130px;
 
 @media (min-width: 1285px) {
     
+
+    .me-auto{
+        margin-left: 600px;
+    }
+    #movelogin{
+        padding-right: 150px;
+    }
     .bgrc{
         padding: 100px;
         padding-left: 400px;

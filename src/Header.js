@@ -4,10 +4,18 @@ import logo from './img/logo-bookmark.svg'
 import Hamburger from './img/icon-hamburger.svg'
 import Hero from './img/illustration-hero.svg'
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import { useState } from 'react'
 
 
 
 const Header = () => {
+
+
+    // const [color, setColor] = useState(initialColor)
+
+    // let changeColor = () => {
+    //     color = 
+    // }
     return (
         <div className='body'>
 
@@ -23,6 +31,9 @@ const Header = () => {
                                                                                                 <Nav.Link href="#home">FEATURES</Nav.Link>
                                                                                                 <Nav.Link href="#link">PRICING</Nav.Link>
                                                                                                 <Nav.Link href="#link">CONTACT</Nav.Link>
+                                                                                                <Nav id='movelogin1'>
+                                                                                                    <button id='login1'>LOGIN</button>
+                                                                                                </Nav>
                                                                                             </Nav>
                                                                                             </Navbar.Collapse>
                                                                                         </Container>

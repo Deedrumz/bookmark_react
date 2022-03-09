@@ -48,15 +48,15 @@ const Footer = () => {
 
                                                                                                                 <div className='foottext2'>
                                                                                                                     <div id='fpcgap'>
-                                                                                                                            <a id='fpc' href="">FEATURES</a>
+                                                                                                                            <a id='fpc' href="#">FEATURES</a>
                                                                                                                     </div>
                                                                                                                     
                                                                                                                     <div id='fpcgap'>
-                                                                                                                            <a id='fpc' href="">PRICING</a>
+                                                                                                                            <a id='fpc' href="#">PRICING</a>
                                                                                                                     </div>
                                                                                                                     
                                                                                                                     <div id='fpcgap'>
-                                                                                                                    <a id='fpc' href="">CONTACT</a>
+                                                                                                                    <a id='fpc' href="#">CONTACT</a>
                                                                                                                     </div>
                                                                                                                     
                                                                                                                 </div>

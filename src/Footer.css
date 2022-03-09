@@ -22,7 +22,7 @@
     border: 2px solid;
     /* outline: 1px rgb(219, 180, 180); */
     outline-color: mediumpurple;
-    color: whitesmoke;
+    /* color: black; */
     height: 40px;
     width: 250px;
     border-radius: 5px;
@@ -105,6 +105,8 @@
    }
 }
 
+/* MEDIA QUERY FOR 1025 STARTS HERE */
+
 
 @media (min-width: 1025px) {
     .foottext1 h2{
@@ -117,6 +119,11 @@
         position: relative;
         bottom: 20px;
         left: 10px;
+    }
+    #cu:hover{
+        background-color: #f7f7f7;
+        color: hsl(0, 94%, 66%);
+        outline: hsl(0, 94%, 66%) 2px solid;
     }
     #inp{
         width: 280px;
@@ -159,6 +166,9 @@
     position: relative;
     left: 300px;
 }
+/* #fb:hover{
+    color: hsl(229, 31%, 21%);
+} */
 #tw{
    position: relative;
 }
@@ -166,6 +176,13 @@
     padding-left: 20px;
 }
 
+.foottext2:hover{
+    color: hsl(0, 94%, 66%);
+}
+
+input[type=email]:invalid{
+    border: 2px solid red
+}
 
 
 }

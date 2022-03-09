@@ -259,7 +259,17 @@
     right: 125px;
 }
 .movemoreinfo{
-    /* visibility: hidden; */
+    padding-bottom: 10px;
+}
+#moreinfo:hover{
+    background-color: #f7f7f7;
+    color: hsl(229, 31%, 21%);
+    outline: hsl(229, 8%, 60%) 2px solid;
+}
+#moreinfo1:hover{
+    background-color: #f7f7f7;
+    color: hsl(229, 31%, 21%);
+    outline: hsl(229, 8%, 60%) 2px solid;
 }
 
 /* SECOND BACKTAB AND BOOKMARK */
@@ -332,7 +342,12 @@
     position: relative;
     left: 270px;
 }
-
+#addchrome:hover{
+    background-color: #f7f7f7;
+    color: hsl(229, 31%, 21%);
+    outline: hsl(229, 8%, 60%) 2px solid;
+    cursor: pointer;
+}
 
 
 
